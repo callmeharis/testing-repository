@@ -8,7 +8,7 @@ export default function MultipleInputs() {
     email: "",
     age: "",
     about: "",
-    avatar: "",
+    // avatar: "",
   });
   const [users, setUsers] = useState([]);
   const changeHandler = (e) => {
@@ -78,13 +78,13 @@ export default function MultipleInputs() {
               name="about"
             />
           </Form.Group>
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <FileBase
               type="file"
               multiple={false}
               onDone={({ base64 }) => setUser({ ...user, avatar: base64 })}
             />
-          </div>
+          </div> */}
           <Button type="submit" variant="success">
             Submit
           </Button>
