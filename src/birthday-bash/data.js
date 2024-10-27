@@ -1,0 +1,42 @@
+export const data = [
+  {
+    id: 1,
+    name: "Haris Ali",
+    age: 45,
+    dob: "2 Aug",
+    avatar: "./upwork-profile2.jpg",
+    info: "This is haris, i hope you are doing well.",
+  },
+  {
+    id: 2,
+    name: "Ahmad",
+    age: 30,
+    dob: "Sep 5",
+    avatar: "./upwork-profile2.jpg",
+    info: "This is ahmad, i hope you are doing well.",
+  },
+  {
+    id: 3,
+    name: "Melissa",
+    age: 78,
+    dob: "17 Aug",
+    avatar: "./upwork-profile2.jpg",
+    info: "This is melissa, i hope you are doing well.",
+  },
+  {
+    id: 4,
+    name: "Hannah",
+    age: 27,
+    dob: "7 July",
+    avatar: "./upwork-profile2.jpg",
+    info: "This is hannah, i hope you are doing well.",
+  },
+  {
+    id: 5,
+    name: "John",
+    age: 30,
+    dob: "15 January",
+    avatar: "./upwork-profile2.jpg",
+    info: "This is john, i hope you are doing well.",
+  },
+];
